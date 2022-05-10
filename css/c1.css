@@ -1,0 +1,86 @@
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+header {
+  margin: 0;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+#navbar {
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  justify-content: space-around;
+  width: 80%;
+}
+nav {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.815);
+  display: flex;
+}
+nav a {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #15ff00;
+  box-shadow: 0px 3px 5px #000000;
+}
+.carré1 {
+  text-align: center;
+  margin: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: #15ff00;
+  border-radius: 20px;
+}
+.carré2 {
+  text-align: center;
+  margin: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: #15ff00;
+  border-radius: 20px;
+}
+.carré3 {
+  text-align: center;
+  margin: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: #15ff00;
+  border-radius: 20px;
+}
+#chiffres {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+#tablehub {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#listedéparts {
+  color: white;
+  margin-left: 0%;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  background: linear-gradient(rgb(5, 216, 22), rgb(43, 255, 0));
+}
+#listearrivées {
+  color: white;
+  margin-left: 0%;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  background: linear-gradient(rgb(5, 216, 22), rgb(43, 255, 0));
+}

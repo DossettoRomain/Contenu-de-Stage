@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+body {
+  min-height: 100vh;
+  padding-bottom: 1rem;
+  font-family: "Goldman", cursive;
+}
+
+.video-container {
+  position: fixed;
+  z-index: -5;
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+.video-container iframe {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.container {
+  margin: 0;
+  padding: 0 2rem;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.soustitre {
+  color: white;
+  list-style-position: outside;
+  padding: 6px;
+  border-left: solid 4px rgb(255, 255, 255);
+}
+
+h1 {
+  margin: 0px;
+  font-size: 2.2em;
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 1.8em;
+}
+h1 {
+  color: white;
+}
+.astuces {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.514);
+  margin: none;
+}
+.astuces li {
+  list-style-image: url(file:///Users/romaindossetto/Desktop/icons8-rocket-league-28.png);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.titresmodes {
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000cf5;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.entete {
+  display: flex;
+  margin: 0px;
+  justify-content: space-around;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  margin: 3px;
+}
+.exemples {
+  position: relative;
+}
+.intro {
+  margin: 1.1em;
+  border: 6px solid rgba(255, 255, 255, 0.514);
+}
+table {
+  border: 7px solid rgb(26, 24, 172);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(26, 24, 172);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.tableau {
+  width: 100%;
+  margin: 1rem auto;
+}

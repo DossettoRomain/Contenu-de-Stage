@@ -1,0 +1,17 @@
+div {
+  height: 100vh;
+  width: 100vh;
+}
+button {
+  color: aliceblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: auto;
+  right: auto;
+  box-shadow: 2px 2px 4px 3px black;
+  background-color: brown;
+}
+body {
+  background-image: url(https://images6.alphacoders.com/395/395688.jpg);
+}

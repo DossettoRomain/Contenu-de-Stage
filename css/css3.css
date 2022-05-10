@@ -1,0 +1,92 @@
+body {
+  background-image: url(https://images7.alphacoders.com/353/353092.jpg);
+  margin: 20px;
+  text-align: center;
+}
+td {
+  border: solid 2px white;
+}
+nav {
+  transform-origin: center;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 30%;
+}
+
+table {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  margin: 20px;
+  border: solid 3px rgb(255, 255, 255);
+  margin-left: none;
+}
+caption {
+  background-color: rgba(255, 255, 255, 0.575);
+  border: solid 3px rgb(255, 255, 255);
+  border-bottom: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  background-image: url(https://image.
+  freepik.com/vecteurs-libre/abstrait-or-
+  noir-motif-fond-degrade_39405-59.jpg);
+}
+thead {
+  color: white;
+  border: solid 2px rgb(255, 255, 255);
+  background-color: darkred;
+}
+tfoot {
+  border: solid 2px rgb(255, 255, 255);
+  margin: 10px;
+}
+tbody {
+  border: solid 3px white;
+  color: rgb(255, 255, 255);
+  background-image: url(https://lh3.googleusercontent.com/proxy/v8-PB8mLEZLytOfZdpVsDxwSk6cg0O3Rx-TnPQ7Bxo5exUlPgqurQL7ey8CJIXenRIGeJLIjCKo-4D6Eoob0iw8XRXfhUbLBzZ-US7uC);
+}
+#carré {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  background-color: rgb(255, 0, 0);
+}
+#petitcarré {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+}
+#toutpetitcarré {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  background-color: rgb(255, 0, 0);
+}
+.minicarré {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+}
+#toutminicarré {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 0, 0);
+}
+#touslescarrés {
+  height: 600px;
+  width: 600px;
+  position: relative;
+}
+#touslescarrés div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+div {
+  border-radius: 600px;
+}

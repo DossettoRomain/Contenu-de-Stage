@@ -1,0 +1,18 @@
+body {
+  background-image: url(https://d3rr2gvhjw0wwy.cloudfront.net/uploads/activity_galleries/211778/2000x2000-0-70-c35d0382cc8117ed8fd9814aea534a6b.jpg);
+  font-family: "Pacifico", cursive;
+}
+div h1 {
+  display: flex;
+  justify-content: center;
+  color: #ad5424;
+  background-color: rgba(0, 0, 0, 0.466);
+  border-radius: 25px;
+}
+img {
+  position: absolute;
+  height: 5%;
+  width: 5%;
+  top: 465px;
+  left: 1000px;
+}

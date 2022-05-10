@@ -1,0 +1,117 @@
+body {
+  background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg);
+  color: white;
+  margin: 0px;
+  font-family: "Play", sans-serif;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+#titre a {
+  font-size: 1.5rem;
+}
+ul li {
+  font-size: 1.2rem;
+}
+#ul1 {
+  display: flex;
+  margin: 0px;
+  justify-content: space-around;
+  width: 80%;
+}
+nav {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.815);
+  display: flex;
+}
+nav a {
+  color: black;
+}
+section {
+  margin: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #b08990;
+  color: #a31919;
+  box-shadow: 0px 3px 5px #000000;
+}
+.row {
+  display: flex;
+}
+ul {
+  padding: 0px;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+#QuiSuis-Je img {
+  border-radius: 50%;
+  height: 200px;
+  width: auto;
+  box-shadow: 0px 0px 5px 3px rgb(0, 0, 0);
+}
+h1 .ombretitre {
+  background-color: rgba(0, 0, 0, 0.116);
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+#MesCompétences {
+  text-align: center;
+}
+#QuiSuis-Je {
+  text-align: center;
+}
+@keyframes stretch {
+  0% {
+    transform: scale(0.3);
+    border-radius: 100%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.1);
+    background-color: yellow;
+  }
+}
+.element {
+  height: 250px;
+  width: 250px;
+  animation-name: stretch;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+img {
+  height: 360px;
+  width: 360 px;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(-20deg);
+  }
+  to {
+    transform: rotate(20deg);
+  }
+}
+.rotation {
+  animation: rotation 1s infinite linear alternate;
+}
+span {
+  color: black;
+}

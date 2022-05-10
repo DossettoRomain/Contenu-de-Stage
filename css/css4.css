@@ -1,0 +1,92 @@
+body {
+  background-image: url(https://images.alphacoders.com/869/869350.jpg);
+  font-family: "Nerko One", cursive;
+  color: white;
+  margin-top: 0pt;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.8em;
+  margin: none;
+  padding: none;
+  text-align: center;
+}
+
+img {
+  width: 20vw;
+  height: auto;
+  border: 0px;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+li {
+  font-size: 1.5em;
+}
+.bleu {
+  color: blue;
+}
+.rouge {
+  color: red;
+}
+p {
+  font-size: 1.8rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header {
+  background-color: rgba(0, 0, 0, 0.541);
+  border-radius: 30px;
+  margin-right: 0px;
+  margin: 0px;
+}
+#sections {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  font-size: 1.4em;
+  text-align: center;
+  padding: 0pt;
+}
+
+caption {
+  font-size: 2em;
+}
+
+table {
+  border: solid 7px black;
+  border-collapse: collapse;
+}
+
+td {
+  border: solid 3px grey;
+}
+header {
+  box-shadow: 3px 4px 4px 3px #ffffff;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+tr,
+td,
+th {
+  margin: 0;
+  padding: 0;
+}
